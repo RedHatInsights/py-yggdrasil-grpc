@@ -11,11 +11,13 @@ Source:     {{{ git_dir_pack }}}
 %{?__python3:Requires: %{__python3}}
 Requires: insights-client
 Requires: python3dist(requests)
+Requires: python3dist(pyyaml)
 BuildRequires: rhc
 BuildRequires: pkgconfig
 BuildRequires: python3-devel
 BuildRequires: python3dist(pip)
 BuildRequires: python3dist(wheel)
+BuildRequires: python3dist(setuptools)
 BuildRequires: openssl-devel
 BuildRequires: c-ares-devel
 BuildRequires: zlib-devel
